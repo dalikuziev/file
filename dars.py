@@ -1,3 +1,4 @@
-print("Hello World")
-print("Hello World")
-print("Hello World")
+with open("olmaxon", "r+") as f:
+    natija = f.writable()
+
+print(natija)
